@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/inter-400.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/inter-700.woff2);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/inter-900.woff2);
+  font-display: swap;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #2D3440;
+  background-color: #FEAFC3;
+}
+
+.navigation-list {
+  line-height: 20px;
+}
+
+.navigation-list .navigation-link {
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.navigation-phone {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.navigation-user {
+  font-size: 14px;
+}
+
+.slider-content-title {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 900;
+}
+
+.slider-content-description {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.btn {
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.offers-title,
+.product-title,
+.advantages-title,
+.delivery-title {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+}
+
+.offers-raspberry-title {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.offers-raspberry {
+  background-color: #FF7799;
+  background-image: url(../img/basket-raspberries.png);
+  background-repeat: no-repeat;
+}
+
+.offers-marshmallow {
+  background-color: #FF7799;
+  background-image: url(../img/basket-marshmallows.png);
+  background-repeat: no-repeat;
+}
+
+.product-item-link {
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.product-item-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.product-item-price {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.advantages {
+  background-color: #F4E9D1;
+  background-image: url(../img/background-waffle.jpg);
+  background-repeat: no-repeat;
+}
+
+.blog {
+  background-color: #FFFFFF;
+  background-image: url(../img/background-blog.jpg);
+  background-repeat: no-repeat;
+}
+
+.blog-title {
+  line-height: 20px;
+}
+
+.blog-link {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.subscribe-form {
+  line-height: 20px;
+}
+
+.btn-red {
+  color: #FCFCFC;
+}
+
+.subscribe {
+  background-color: #FFFFFF;
+  background-image: url(../img/background-mail.png);
+  background-repeat: no-repeat;
+}
+
+.delivery {
+  background-color: #FFFFFF;
+  background-image: url(../img/background-delivery.jpg);
+  background-repeat: no-repeat;
+}
+
+.form-label label {
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.delivery-form input {
+  line-height: 20px;
+}
+
+.contacts {
+  background-color: #EFE4E2;
+  background-image: url(../img/background-address.jpg);
+  background-repeat: no-repeat;
+}
+
+.contacts-address,
+.contacts-phone {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+.contacts-phone {
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.contacts-worktime {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-supplier-link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.footer-info-link {
+  font-size: 14px;
+  line-height: 20px;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.footer-copyright-text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.footer-copyright-link {
+  color: #2D3440;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.breadcrumbs {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #2D3440;
+  text-decoration: none;
+}
+
+.breadcrumbs-underline {
+  text-decoration: underline;
+}
+
+.inner-header-title {
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 900;
+}
+
+.sorting-type {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.button {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.pagination-show-more {
+  font-size: 16px;
+}
+
+.pagination-link {
+  line-height: 20px;
+  color: #2D3440;
+  text-decoration: none;
+}
