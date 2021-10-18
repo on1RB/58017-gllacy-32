@@ -38,6 +38,17 @@ body {
   background-color: #FEAFC3;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .page-header {
   width: 1170px;
   margin: 0 auto;
@@ -48,10 +59,16 @@ body {
 }
 
 .navigation-list {
+  display: flex;
   width: 670px;
   margin: 0;
   padding: 0;
+  list-style: none;
   line-height: 20px;
+}
+
+.navigation-link {
+  display: block;
 }
 
 .navigation-list .navigation-link {
