@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Магазин мороженого Глейси</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
   </head>
   <body>
     <header class="page-header">
@@ -40,11 +41,11 @@
           <li class="navigation-item navigation-item-search">
             <a class="navigation-btn navigation-btn-active" href="#">
               <span class="visually-hidden">Поиск</span>
+              <form class="form-search form-search-active" action="https://echo.htmlacademy.ru/" method="post">
+                <label class="visually-hidden" for="search-field">Поле поиска</label>
+                <input class="navigation-search" type="search" name="search" id="search-field" placeholder="Поиск по сайту">
+              </form>
             </a>
-            <form class="form-search form-search-active" action="https://echo.htmlacademy.ru/" method="post">
-              <label class="visually-hidden" for="search-field">Поле поиска</label>
-              <input class="navigation-search" type="search" name="search" id="search-field" placeholder="Поиск по сайту">
-            </form>
           </li>
           <li class="navigation-item navigation-item-login">
             <a class="navigation-link navigation-login" href="#">Вход</a>
