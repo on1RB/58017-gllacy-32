@@ -2233,10 +2233,10 @@ input[type="search"i]::-webkit-search-cancel-button:hover {
 }
 
 .basket-product-info {
+  width: 140px;
   display: flex;
   flex-direction: column;
   margin-right: 24px;
-  width: 140px;
 }
 
 .basket-product-name {
