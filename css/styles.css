@@ -379,7 +379,7 @@ input[type="search"i]::-webkit-search-cancel-button:hover {
 
 .navigation-basket:focus .basket-icon {
   top: 6px;
-  left: 14px;
+  left: 15px;
 }
 
 .basket-icon {
@@ -1686,6 +1686,10 @@ input[type="search"i]::-webkit-search-cancel-button:hover {
 
 .basket-icon-catalog {
   left: 16px;
+}
+
+.navigation-basket:focus .basket-icon-catalog {
+  left: 14px;
 }
 
 .navigation-inner {
