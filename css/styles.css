@@ -1587,12 +1587,12 @@ input[type="search"i]::-webkit-search-cancel-button:hover {
 .footer-copyright-logo {
   display: inline-block;
   text-decoration: none;
-  margin-bottom: 9px;
+  padding-bottom: 1px;
 }
 
 .footer-copyright-logo:hover {
   border-bottom: 1px solid #2d3440;
-  margin-bottom: 8px;
+  padding-bottom: 0;
 }
 
 .footer-logo-htmlacademy {
@@ -1610,9 +1610,9 @@ input[type="search"i]::-webkit-search-cancel-button:hover {
 .footer-copyright-link {
   display: inline-block;
   color: #2d3440;
+  margin-top: 8px;
   text-decoration: none;
-  border-bottom: 1px solid;
-  border-color: rgba(45, 52, 64, 0.5);
+  border-bottom: 1px solid rgba(45, 52, 64, 0.5);
   cursor: pointer;
 }
 
@@ -1621,6 +1621,9 @@ input[type="search"i]::-webkit-search-cancel-button:hover {
 }
 
 .footer-copyright-link:focus {
+  margin-top: 7px;
+  margin-left: -1px;
+  margin-right: -1px;
   border: 1px solid;
 }
 
